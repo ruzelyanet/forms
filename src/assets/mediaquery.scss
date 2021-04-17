@@ -1,0 +1,27 @@
+﻿@media (max-width: 568px) {
+    .verification-pas {
+        padding: 0;
+    }
+    .verification-wrapper img {
+        width: 100%;
+    }
+    .verification-btn {
+        flex-direction: column;
+        .btn-text {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    .geneer {
+        flex-direction: column;
+        align-items: flex-start;
+        input {
+            margin-bottom: 20px;
+        }
+        img {
+            margin-left: 0;
+        }
+    }
+}
